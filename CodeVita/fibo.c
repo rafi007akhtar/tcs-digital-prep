@@ -5,7 +5,7 @@
  * Output nth fibonacci number
  * 1 <= n <= 10^6
  * 1 <= k <= 10
- * This solution takes O(n) time
+ * This solution takes O(n*k) time and O(n) space
  */
 
 
