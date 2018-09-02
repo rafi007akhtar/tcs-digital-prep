@@ -44,5 +44,7 @@ int main(void)
 		cout << i << " ";
 	cout << endl;
 
+	cout << "\nThis set has " << sorted.size() << " elements\n";
+
 	return 0;
 }
