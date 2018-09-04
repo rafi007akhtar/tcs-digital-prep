@@ -9,24 +9,31 @@ More about TCS Digital examination here: https://www.tcs.com/
 ### CodeVita
 This folder contains the program I solved in TCS CodeVita, 2018, that ultimately let to my selection in the interview.
 
-• **fibo.c**&emsp;The Modified Fibonacci program solved with brute-force.
-
-• **fibo-less.c**&emsp;A space-optimized version of the same program that uses LRU technique to cut the memory used from `O(n)` to `O(k)`, where _n_ can go as high as 10<sup>6</sup> while _k_ can be 10 at max.
-
-### DP
-Bunch of dynamic programming problems I solved during this time period.
-
-All the questions, with more solutions than mine, are available on GeeksForGeeks, here: https://www.geeksforgeeks.org/dynamic-programming/
+&emsp;• **fibo.c**&emsp;The Modified Fibonacci program solved with brute-force. <br>
+&emsp;• **fibo-less.c**&emsp;A space-optimized version of the same program that uses LRU technique to cut the memory used from `O(n)` to `O(k)`, where _n_ can go as high as 10<sup>6</sup> while _k_ can be 10 at max.
 
 ### STL
 I don't really do competitve coding, and this was one of my first stints in doing so. Naturally, I had to learn the Standard Template Library of C++ for better and faster implementation of certain algorithms.
 
 This repository contains some basic STL containers and their implementations, like:
-<li> Pairs
-<li> Vectors
-<li> Lists
-<li> Sets
-<li> Maps
+<ul>
+	<li> Pairs
+	<li> Vectors
+	<li> Lists
+	<li> Sets
+	<li> Maps
+</ul>
+
+### Sorting
+Implementation of various sorting algorithms in C++, such as:
+<ul>
+	<li> Heap sort
+</ul>
+
+### DP
+Bunch of dynamic programming problems I solved during this time period.
+
+All the questions, with more solutions than mine, are available on GeeksForGeeks, here: https://www.geeksforgeeks.org/dynamic-programming/
 
 ### Other programs
 These are programs that I solved in addition to the above ones, just for some more practise.
