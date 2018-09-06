@@ -42,11 +42,6 @@ int main(int argn, char *argv[])
 
     cache[0] = cache[1] = 1; // initial conditions
     printf("fib(%d) = %d using memoization\n", n, fib_mem(n)); // top-down
-
-    int a = 10, x = 20;
-    a = a++ + 10;
-    x = x++ + ++a;
-    printf("%d %d\n", a,x);
     
     return 0;
 }
