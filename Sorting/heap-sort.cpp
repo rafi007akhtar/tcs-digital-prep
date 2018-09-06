@@ -8,8 +8,7 @@
  https://github.com/rafi007akhtar/c-algorithms/blob/master/heap-algos.c
  */
 
-#include <bits/stdc++.h>
-using namespace std;
+#include "utilities.hpp"
 
 vector <int> heap; // the heap array
 
@@ -83,10 +82,9 @@ int main()
 	}
 
 	heapSort(n);
-	cout << "\nSorted elements: ";
-	for (int i: heap)
-		cout << i << " ";
-	cout << endl;
+
+	cout << "The sorted elements are: ";
+	printV(heap);
 
 	return 0;
 }
