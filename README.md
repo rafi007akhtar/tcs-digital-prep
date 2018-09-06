@@ -15,7 +15,7 @@ This folder contains the program I solved in TCS CodeVita, 2018, that ultimately
 ### STL
 I don't really do competitve coding, and this was one of my first stints in doing so. Naturally, I had to learn the Standard Template Library of C++ for better and faster implementation of certain algorithms.
 
-This repository contains some basic STL containers and their implementations, like:
+This repository contains some basic STL containers and their example programs, like:
 <ul>
 	<li> Pairs
 	<li> Vectors
@@ -28,6 +28,7 @@ This repository contains some basic STL containers and their implementations, li
 Implementation of various sorting algorithms in C++, such as:
 <ul>
 	<li> Heap sort
+	<li> Insertion sort
 </ul>
 
 ### DP
@@ -39,8 +40,11 @@ All the questions, with more solutions than mine, are available on GeeksForGeeks
 These are programs that I solved in addition to the above ones, just for some more practise.
 
 They include:
+<ul>
+	<li> Printing a square matrix in spiral order (<strong>spiral.c</strong>) </li>
+	<li> Print if a number is even or odd without using arithmetic operators (<strong>even-odd-constraints.py</strong>)
+</ul>
 
-• Printing a square matrix in spiral order (**spiral.c**)
 
 ## Disclaimer
 All codes written are my own. I did not copy any code nor do I intend to make any copyright infringement. Similarities, if found, are purely coincidental.
