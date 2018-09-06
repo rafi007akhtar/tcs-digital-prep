@@ -70,10 +70,12 @@ pair <int,int> move(pair <int, int> p, char dir)
 
 int getStartingRow(int n, int y)
 {
+	/** Get the row (x-value) from where the exploration must begin (since y value is known to be the first column) */
+
 	int elem = -1, x;
 	for (int i = 0; i < n; i++)
 	{
-		if (mine[i][y] > elem)
+		if (mine[i][y] > elem) // choose the row with the greatest value to begin with
 		{
 			x = i;
 			elem = mine[x][y];
@@ -82,10 +84,6 @@ int getStartingRow(int n, int y)
 	return x;
 }
 
-bool compare(int a, int b)
-{
-	return a < b;
-}
 
 int main()
 {
@@ -145,10 +143,8 @@ int main()
 			{
 				x = p2.first;
 				y = p2.second;
-				// p1 = p2;
 				rightDown = 'd'; // free to move down if possible
 			}
-			// else p2 = p1; // as p1 is greater
 		}
 
 		if (p3.first >= n || p3.second >= m) // exceeded boundary while going right-down
@@ -160,10 +156,8 @@ int main()
 			{
 				x = p3.first;
 				y = p3.second;
-				// p1 = p2 = p3;
 				rightUp = 'u'; // free to move up if possible
 			}
-			// else p3 = p2 = p1 = make_pair(x, y); // pick whichever has greater gold
 		}
 
 		p3 = p2 = p1 = make_pair(x, y); // continue on from this point
