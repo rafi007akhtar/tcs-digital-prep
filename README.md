@@ -30,6 +30,7 @@ Implementation of various sorting algorithms in C++, such as:
 	<li> Heap sort
 	<li> Insertion sort
 	<li> Merge sort
+	<li> Quick sort
 </ul>
 
 ### DP
