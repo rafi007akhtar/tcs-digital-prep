@@ -44,7 +44,7 @@ These are programs that I solved in addition to the above ones, just for some mo
 They include:
 <ul>
 	<li> Printing a square matrix in spiral order (<strong>spiral.c</strong>) </li>
-	<li> Print if a number is even or odd without using arithmetic operators (<strong>even-odd-constraints.py</strong>)
+	<li> Print if a number is even or odd without using arithmetic operators (<strong>even-odd-constraints.py, even-odd-constraints.c</strong>) </li>
 </ul>
 
 
