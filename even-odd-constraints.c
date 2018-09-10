@@ -6,10 +6,7 @@ int main(void)
     printf("Enter number: ");
     scanf("%d", &n);
 
-    if (n & 1) // returns true if odd
-        printf("Odd number\n");
-    else
-        printf("Even number\n");
+    (n & 1) ? printf("Odd number\n") : printf("Even number\n");
     
     return 0;
 }
