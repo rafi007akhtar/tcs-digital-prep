@@ -4,6 +4,8 @@ This repository contains everything I practised in my 2-week prep time for the t
 
 More about TCS Digital examination here: https://www.tcs.com/
 
+More on my prep strategy, in-depth, [here](https://www.geeksforgeeks.org/how-i-cracked-tcs-digital/).
+
 ## Contents
 
 ### CodeVita
