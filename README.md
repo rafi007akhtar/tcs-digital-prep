@@ -15,24 +15,25 @@ This folder contains the program I solved in TCS CodeVita, 2018, that ultimately
 &emsp;• **fibo-less.c**&emsp;A space-optimized version of the same program that uses LRU technique to cut the memory used from `O(n)` to `O(k)`, where _n_ can go as high as 10<sup>6</sup> while _k_ can be 10 at max.
 
 ### STL
-I don't really do competitve coding, and this was one of my first stints in doing so. Naturally, I had to learn the Standard Template Library of C++ for better and faster implementation of certain algorithms.
+I don't really do competitive coding, and this was one of my first stints in doing so. Naturally, I had to learn the Standard Template Library of C++ for better and faster implementation of certain algorithms.
 
 This repository contains some basic STL containers and their example programs, like:
 <ul>
-	<li> Pairs
-	<li> Vectors
-	<li> Lists
-	<li> Sets
-	<li> Maps
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/pairs.cpp"> Pairs </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/vectors.cpp"> Vectors </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/lists.cpp"> Lists </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/sets.cpp"> Sets </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/maps.cpp"> Maps </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/STL/deque.cpp"> Dequeue </a>
 </ul>
 
 ### Sorting
 Implementation of various sorting algorithms in C++, such as:
 <ul>
-	<li> Heap sort
-	<li> Insertion sort
-	<li> Merge sort
-	<li> Quick sort
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/Sorting/heap-sort.cpp">Heap sort</a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/Sorting/insertion-sort.cpp"> Insertion sort </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/Sorting/merge-sort.cpp"> Merge sort </a>
+	<li> <a href="https://github.com/rafi007akhtar/tcs-digital-prep/blob/master/Sorting/quick-sort.cpp"> Quick sort </a>
 </ul>
 
 ### DP
